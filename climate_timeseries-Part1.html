@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<!-- saved from url=(0093)file://enterprisenet.org/Sentrum/citrix_home/lillle01/Downloads/climate_timeseries-Part1.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html>
+<head><meta charset="utf-8" />
 <title>climate_timeseries-Part1</title>
 
-<script src="./climate_timeseries-Part1_files/require.min.js.download"></script>
-<script src="./climate_timeseries-Part1_files/jquery.min.js.download"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <style type="text/css">
     /*!
@@ -143,13 +143,13 @@ div#notebook {
 </style>
 
 <!-- Custom stylesheet, it must be in the same directory as the html file -->
-<link rel="stylesheet" href="file://enterprisenet.org/Sentrum/citrix_home/lillle01/Downloads/custom.css">
+<link rel="stylesheet" href="custom.css">
 
 <!-- Loading mathjax macro -->
 <!-- Load mathjax -->
-    <script src="./climate_timeseries-Part1_files/MathJax.js.download"></script>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
     <!-- MathJax configuration -->
-    <script type="text/x-mathjax-config;executed=true">
+    <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
         tex2jax: {
             inlineMath: [ ['$','$'], ["\\(","\\)"] ],
@@ -166,103 +166,8 @@ div#notebook {
         }
     });
     </script>
-    <!-- End of mathjax configuration --><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
-.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
-.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
-.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
-.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
-</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
-#MathJax_About.MathJax_MousePost {outline: none}
-.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
-.MathJax_MenuItem {padding: 2px 2em; background: transparent}
-.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
-.MathJax_MenuActive .MathJax_MenuArrow {color: white}
-.MathJax_MenuArrow.RTL {left: .5em; right: auto}
-.MathJax_MenuCheck {position: absolute; left: .7em}
-.MathJax_MenuCheck.RTL {right: .7em; left: auto}
-.MathJax_MenuRadioCheck {position: absolute; left: 1em}
-.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
-.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
-.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
-.MathJax_MenuDisabled {color: GrayText}
-.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
-.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
-.MathJax_ContextMenu:focus {outline: none}
-.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
-#MathJax_AboutClose {top: .2em; right: .2em}
-.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
-.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
-.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
-.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
-.MathJax_MenuClose:hover span {background-color: #CCC!important}
-.MathJax_MenuClose:hover:focus {outline: none}
-</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
-</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
-.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
-</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
-#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
-#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
-#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
-</style><style type="text/css">.MathJax_Preview {color: #888}
-#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
-#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
-.MathJax_Error {color: #CC0000; font-style: italic}
-</style><style type="text/css">.MJXp-script {font-size: .8em}
-.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
-.MJXp-bold {font-weight: bold}
-.MJXp-italic {font-style: italic}
-.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
-.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
-.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
-.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
-.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
-.MJXp-largeop {font-size: 150%}
-.MJXp-largeop.MJXp-int {vertical-align: -.2em}
-.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
-.MJXp-display {display: block; text-align: center; margin: 1em 0}
-.MJXp-math span {display: inline-block}
-.MJXp-box {display: block!important; text-align: center}
-.MJXp-box:after {content: " "}
-.MJXp-rule {display: block!important; margin-top: .1em}
-.MJXp-char {display: block!important}
-.MJXp-mo {margin: 0 .15em}
-.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
-.MJXp-denom {display: inline-table!important; width: 100%}
-.MJXp-denom > * {display: table-row!important}
-.MJXp-surd {vertical-align: top}
-.MJXp-surd > * {display: block!important}
-.MJXp-script-box > *  {display: table!important; height: 50%}
-.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
-.MJXp-script-box > *:last-child > * {vertical-align: bottom}
-.MJXp-script-box > * > * > * {display: block!important}
-.MJXp-mphantom {visibility: hidden}
-.MJXp-munderover {display: inline-table!important}
-.MJXp-over {display: inline-block!important; text-align: center}
-.MJXp-over > * {display: block!important}
-.MJXp-munderover > * {display: table-row!important}
-.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
-.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
-.MJXp-mtr {display: table-row!important}
-.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
-.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
-.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
-.MJXp-mlabeledtr {display: table-row!important}
-.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
-.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
-.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
-.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
-.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
-.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
-.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
-.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
-.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
-.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
-.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
-.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
-.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
-.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
-</style></head>
-<body><div id="MathJax_Message" style="display: none;"></div>
+    <!-- End of mathjax configuration --></head>
+<body>
   <div tabindex="-1" id="notebook" class="border-box-sizing">
     <div class="container" id="notebook-container">
 
@@ -281,7 +186,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Climate-data-exploration:-a-journey-through-Pandas">Climate data exploration: a journey through Pandas<a class="anchor-link" href="file://enterprisenet.org/Sentrum/citrix_home/lillle01/Downloads/climate_timeseries-Part1.html#Climate-data-exploration:-a-journey-through-Pandas">¶</a></h1>
+<h1 id="Climate-data-exploration:-a-journey-through-Pandas">Climate data exploration: a journey through Pandas<a class="anchor-link" href="#Climate-data-exploration:-a-journey-through-Pandas">&#182;</a></h1>
 </div>
 </div>
 </div>
@@ -300,7 +205,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="The-story">The story<a class="anchor-link" href="file://enterprisenet.org/Sentrum/citrix_home/lillle01/Downloads/climate_timeseries-Part1.html#The-story">¶</a></h2>
+<h2 id="The-story">The story<a class="anchor-link" href="#The-story">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -347,7 +252,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Some-initial-setup">Some initial setup<a class="anchor-link" href="file://enterprisenet.org/Sentrum/citrix_home/lillle01/Downloads/climate_timeseries-Part1.html#Some-initial-setup">¶</a></h2>
+<h2 id="Some-initial-setup">Some initial setup<a class="anchor-link" href="#Some-initial-setup">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -364,7 +269,7 @@ div#notebook {
 
 
 
-<span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s2">"display.max_rows"</span><span class="p">,</span> <span class="mi">16</span><span class="p">)</span>
+<span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s2">&quot;display.max_rows&quot;</span><span class="p">,</span> <span class="mi">16</span><span class="p">)</span>
 
 <span class="n">LARGE_FIGSIZE</span> <span class="o">=</span> <span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">8</span><span class="p">)</span>
 </pre></div>
@@ -394,7 +299,7 @@ div#notebook {
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\Users\\ C:/python/pandas_tutorial-master/climate_timeseries/'
+<pre>[WinError 123] The filename, directory name, or volume label syntax is incorrect: &apos;C:\\Users\\ C:/python/pandas_tutorial-master/climate_timeseries/&apos;
 C:\python\pandas_tutorial-master\climate_timeseries
  Volume in drive C is OSDisk
  Volume Serial Number is E0CF-5D2A
@@ -425,7 +330,7 @@ C:\python\pandas_tutorial-master\climate_timeseries
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="1.-Loading-data">1. Loading data<a class="anchor-link" href="file://enterprisenet.org/Sentrum/citrix_home/lillle01/Downloads/climate_timeseries-Part1.html#1.-Loading-data">¶</a></h2>
+<h2 id="1.-Loading-data">1. Loading data<a class="anchor-link" href="#1.-Loading-data">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -467,12 +372,13 @@ C:\python\pandas_tutorial-master\climate_timeseries
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_text output_error">
-<pre><span class="ansired">---------------------------------------------------------------------------</span>
+<pre>
+<span class="ansired">---------------------------------------------------------------------------</span>
 <span class="ansired">AttributeError</span>                            Traceback (most recent call last)
 <span class="ansigreen">&lt;ipython-input-6-b8fa7a4c1fc3&gt;</span> in <span class="ansicyan">&lt;module&gt;</span><span class="ansiblue">()</span>
 <span class="ansigreen">----&gt; 1</span><span class="ansiyellow"> </span>pd<span class="ansiyellow">.</span>read_<span class="ansiyellow"></span>
 
-<span class="ansired">AttributeError</span>: module 'pandas' has no attribute 'read_'</pre>
+<span class="ansired">AttributeError</span>: module &apos;pandas&apos; has no attribute &apos;read_&apos;</pre>
 </div>
 </div>
 
@@ -498,7 +404,7 @@ C:\python\pandas_tutorial-master\climate_timeseries
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="From-a-local-text-file">From a local text file<a class="anchor-link" href="file://enterprisenet.org/Sentrum/citrix_home/lillle01/Downloads/climate_timeseries-Part1.html#From-a-local-text-file">¶</a></h3>
+<h3 id="From-a-local-text-file">From a local text file<a class="anchor-link" href="#From-a-local-text-file">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -517,8 +423,8 @@ C:\python\pandas_tutorial-master\climate_timeseries
 <div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#filename = "data/temperatures/annual.land_ocean.90S.90N.df_1901-2000mean.dat"</span>
-<span class="n">filename</span> <span class="o">=</span> <span class="s2">"C:/python/pandas_tutorial-master/climate_timeseries/data/temperatures/annual.land_ocean.90S.90N.df_1901-2000mean.dat"</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#filename = &quot;data/temperatures/annual.land_ocean.90S.90N.df_1901-2000mean.dat&quot;</span>
+<span class="n">filename</span> <span class="o">=</span> <span class="s2">&quot;C:/python/pandas_tutorial-master/climate_timeseries/data/temperatures/annual.land_ocean.90S.90N.df_1901-2000mean.dat&quot;</span>
 <span class="n">full_globe_temp</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_table</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
 <span class="n">full_globe_temp</span>
 </pre></div>
@@ -638,7 +544,7 @@ C:\python\pandas_tutorial-master\climate_timeseries
 <div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">full_globe_temp</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_table</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">"\s+"</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">full_globe_temp</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_table</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;\s+&quot;</span><span class="p">)</span>
 <span class="n">full_globe_temp</span>
 </pre></div>
 
@@ -775,7 +681,7 @@ C:\python\pandas_tutorial-master\climate_timeseries
 <div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">full_globe_temp</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_table</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">"\s+"</span><span class="p">,</span> <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s2">"year"</span><span class="p">,</span> <span class="s2">"mean temp"</span><span class="p">])</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">full_globe_temp</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_table</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;\s+&quot;</span><span class="p">,</span> <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;year&quot;</span><span class="p">,</span> <span class="s2">&quot;mean temp&quot;</span><span class="p">])</span>
 <span class="n">full_globe_temp</span>
 </pre></div>
 
@@ -912,7 +818,7 @@ C:\python\pandas_tutorial-master\climate_timeseries
 <div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">full_globe_temp</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_table</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">"\s+"</span><span class="p">,</span> <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s2">"year"</span><span class="p">,</span> <span class="s2">"mean temp"</span><span class="p">],</span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">full_globe_temp</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_table</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;\s+&quot;</span><span class="p">,</span> <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;year&quot;</span><span class="p">,</span> <span class="s2">&quot;mean temp&quot;</span><span class="p">],</span> 
                                 <span class="n">index_col</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
 <span class="n">full_globe_temp</span>
 </pre></div>
@@ -1036,7 +942,7 @@ C:\python\pandas_tutorial-master\climate_timeseries
 <div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">full_globe_temp</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_table</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">"\s+"</span><span class="p">,</span> <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s2">"year"</span><span class="p">,</span> <span class="s2">"mean temp"</span><span class="p">],</span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">full_globe_temp</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_table</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;\s+&quot;</span><span class="p">,</span> <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;year&quot;</span><span class="p">,</span> <span class="s2">&quot;mean temp&quot;</span><span class="p">],</span> 
                                 <span class="n">index_col</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">parse_dates</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="n">full_globe_temp</span>
 </pre></div>
@@ -1150,7 +1056,7 @@ C:\python\pandas_tutorial-master\climate_timeseries
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="From-a-chunked-file">From a chunked file<a class="anchor-link" href="file://enterprisenet.org/Sentrum/citrix_home/lillle01/Downloads/climate_timeseries-Part1.html#From-a-chunked-file">¶</a></h3>
+<h3 id="From-a-chunked-file">From a chunked file<a class="anchor-link" href="#From-a-chunked-file">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -1159,8 +1065,8 @@ C:\python\pandas_tutorial-master\climate_timeseries
 <div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">giss_temp</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_table</span><span class="p">(</span><span class="s2">"C:/python/pandas_tutorial-master/climate_timeseries/data/temperatures/GLB.Ts+dSST.txt"</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">"\s+"</span><span class="p">,</span> <span class="n">skiprows</span><span class="o">=</span><span class="mi">7</span><span class="p">,</span>
-                          <span class="n">skip_footer</span><span class="o">=</span><span class="mi">11</span><span class="p">,</span> <span class="n">engine</span><span class="o">=</span><span class="s2">"python"</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">giss_temp</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_table</span><span class="p">(</span><span class="s2">&quot;C:/python/pandas_tutorial-master/climate_timeseries/data/temperatures/GLB.Ts+dSST.txt&quot;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;\s+&quot;</span><span class="p">,</span> <span class="n">skiprows</span><span class="o">=</span><span class="mi">7</span><span class="p">,</span>
+                          <span class="n">skip_footer</span><span class="o">=</span><span class="mi">11</span><span class="p">,</span> <span class="n">engine</span><span class="o">=</span><span class="s2">&quot;python&quot;</span><span class="p">)</span>
 <span class="n">giss_temp</span>
 </pre></div>
 
@@ -1641,7 +1547,7 @@ C:\python\pandas_tutorial-master\climate_timeseries
 <div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">Co2</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_table</span><span class="p">(</span><span class="s2">"C:/python/pandas_tutorial-master/climate_timeseries/data/greenhouse_gaz/co2_mm_global.txt"</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">"\s+"</span><span class="p">,</span> <span class="n">engine</span><span class="o">=</span><span class="s2">"python"</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">Co2</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_table</span><span class="p">(</span><span class="s2">&quot;C:/python/pandas_tutorial-master/climate_timeseries/data/greenhouse_gaz/co2_mm_global.txt&quot;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;\s+&quot;</span><span class="p">,</span> <span class="n">engine</span><span class="o">=</span><span class="s2">&quot;python&quot;</span><span class="p">)</span>
 <span class="n">Co2</span>
 </pre></div>
 
@@ -1822,7 +1728,7 @@ C:\python\pandas_tutorial-master\climate_timeseries
 <div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">Co2</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_table</span><span class="p">(</span><span class="s2">"C:/python/pandas_tutorial-master/climate_timeseries/data/greenhouse_gaz/co2_mm_global.txt"</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">"\s+"</span><span class="p">,</span> <span class="n">engine</span><span class="o">=</span><span class="s2">"python"</span><span class="p">,</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">Co2</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_table</span><span class="p">(</span><span class="s2">&quot;C:/python/pandas_tutorial-master/climate_timeseries/data/greenhouse_gaz/co2_mm_global.txt&quot;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;\s+&quot;</span><span class="p">,</span> <span class="n">engine</span><span class="o">=</span><span class="s2">&quot;python&quot;</span><span class="p">,</span>
                     <span class="n">index_col</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">parse_dates</span><span class="o">=</span> <span class="p">[[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">]])</span>
 <span class="n">Co2</span>
 </pre></div>
@@ -1974,7 +1880,7 @@ C:\python\pandas_tutorial-master\climate_timeseries
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="From-a-remote-text-file">From a remote text file<a class="anchor-link" href="file://enterprisenet.org/Sentrum/citrix_home/lillle01/Downloads/climate_timeseries-Part1.html#From-a-remote-text-file">¶</a></h3>
+<h3 id="From-a-remote-text-file">From a remote text file<a class="anchor-link" href="#From-a-remote-text-file">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -2005,8 +1911,8 @@ hemisphere, or even per ocean, sea, ... Let's download the global one, and the o
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Local backup: data/sea_levels/sl_nh.txt</span>
-<span class="n">northern_sea_level</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_table</span><span class="p">(</span><span class="s2">"http://sealevel.colorado.edu/files/current/sl_nh.txt"</span><span class="p">,</span> 
-                                   <span class="n">sep</span><span class="o">=</span><span class="s2">"\s+"</span><span class="p">)</span>
+<span class="n">northern_sea_level</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_table</span><span class="p">(</span><span class="s2">&quot;http://sealevel.colorado.edu/files/current/sl_nh.txt&quot;</span><span class="p">,</span> 
+                                   <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;\s+&quot;</span><span class="p">)</span>
 <span class="n">northern_sea_level</span>
 </pre></div>
 
@@ -2152,8 +2058,8 @@ hemisphere, or even per ocean, sea, ... Let's download the global one, and the o
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Local backup: data/sea_levels/sl_sh.txt</span>
-<span class="n">southern_sea_level</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_table</span><span class="p">(</span><span class="s2">"http://sealevel.colorado.edu/files/current/sl_sh.txt"</span><span class="p">,</span> 
-                                   <span class="n">sep</span><span class="o">=</span><span class="s2">"\s+"</span><span class="p">)</span>
+<span class="n">southern_sea_level</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_table</span><span class="p">(</span><span class="s2">&quot;http://sealevel.colorado.edu/files/current/sl_sh.txt&quot;</span><span class="p">,</span> 
+                                   <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;\s+&quot;</span><span class="p">)</span>
 <span class="n">southern_sea_level</span>
 </pre></div>
 
@@ -2300,8 +2206,8 @@ hemisphere, or even per ocean, sea, ... Let's download the global one, and the o
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># The 2015 version of the global dataset:</span>
 <span class="c1"># Local backup: data/sea_levels/sl_ns_global.txt</span>
-<span class="n">url</span> <span class="o">=</span> <span class="s2">"http://sealevel.colorado.edu/files/2015_rel2/sl_ns_global.txt"</span>
-<span class="n">global_sea_level</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_table</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">"\s+"</span><span class="p">)</span>
+<span class="n">url</span> <span class="o">=</span> <span class="s2">&quot;http://sealevel.colorado.edu/files/2015_rel2/sl_ns_global.txt&quot;</span>
+<span class="n">global_sea_level</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_table</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;\s+&quot;</span><span class="p">)</span>
 <span class="n">global_sea_level</span>
 </pre></div>
 
@@ -2456,7 +2362,7 @@ hemisphere, or even per ocean, sea, ... Let's download the global one, and the o
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="From-a-local-or-remote-HTML-file">From a local or remote HTML file<a class="anchor-link" href="file://enterprisenet.org/Sentrum/citrix_home/lillle01/Downloads/climate_timeseries-Part1.html#From-a-local-or-remote-HTML-file">¶</a></h3>
+<h3 id="From-a-local-or-remote-HTML-file">From a local or remote HTML file<a class="anchor-link" href="#From-a-local-or-remote-HTML-file">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -2475,7 +2381,7 @@ hemisphere, or even per ocean, sea, ... Let's download the global one, and the o
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Needs-lxml,-beautifulSoup4-and-html5lib-python-packages">Needs <code>lxml</code>, <code>beautifulSoup4</code> and <code>html5lib</code> python packages<a class="anchor-link" href="file://enterprisenet.org/Sentrum/citrix_home/lillle01/Downloads/climate_timeseries-Part1.html#Needs-lxml,-beautifulSoup4-and-html5lib-python-packages">¶</a></h1><h1 id="Local-backup-in-data/sea_levels/Obtaining-Tide-Gauge-Data.html">Local backup in data/sea_levels/Obtaining Tide Gauge Data.html<a class="anchor-link" href="file://enterprisenet.org/Sentrum/citrix_home/lillle01/Downloads/climate_timeseries-Part1.html#Local-backup-in-data/sea_levels/Obtaining-Tide-Gauge-Data.html">¶</a></h1><h1 id="table_list-=-pd.read_html(&quot;http://www.psmsl.org/data/obtaining/&quot;)">table_list = pd.read_html("<a href="http://www.psmsl.org/data/obtaining/">http://www.psmsl.org/data/obtaining/</a>")<a class="anchor-link" href="file://enterprisenet.org/Sentrum/citrix_home/lillle01/Downloads/climate_timeseries-Part1.html#table_list-=-pd.read_html(&quot;http://www.psmsl.org/data/obtaining/&quot;)">¶</a></h1><p>table_list = pd.read_html("C:/python/pandas_tutorial-master/climate_timeseries/data/sea_levels/Obtaining Tide Gauge Data.html")</p>
+<h1 id="Needs-lxml,-beautifulSoup4-and-html5lib-python-packages">Needs <code>lxml</code>, <code>beautifulSoup4</code> and <code>html5lib</code> python packages<a class="anchor-link" href="#Needs-lxml,-beautifulSoup4-and-html5lib-python-packages">&#182;</a></h1><h1 id="Local-backup-in-data/sea_levels/Obtaining-Tide-Gauge-Data.html">Local backup in data/sea_levels/Obtaining Tide Gauge Data.html<a class="anchor-link" href="#Local-backup-in-data/sea_levels/Obtaining-Tide-Gauge-Data.html">&#182;</a></h1><h1 id="table_list-=-pd.read_html(&quot;http://www.psmsl.org/data/obtaining/&quot;)">table_list = pd.read_html("<a href="http://www.psmsl.org/data/obtaining/">http://www.psmsl.org/data/obtaining/</a>")<a class="anchor-link" href="#table_list-=-pd.read_html(&quot;http://www.psmsl.org/data/obtaining/&quot;)">&#182;</a></h1><p>table_list = pd.read_html("C:/python/pandas_tutorial-master/climate_timeseries/data/sea_levels/Obtaining Tide Gauge Data.html")</p>
 
 </div>
 </div>
@@ -2485,7 +2391,7 @@ hemisphere, or even per ocean, sea, ... Let's download the global one, and the o
 <div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">table_list</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_html</span><span class="p">(</span><span class="s2">"http://www.psmsl.org/data/obtaining/"</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">table_list</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_html</span><span class="p">(</span><span class="s2">&quot;http://www.psmsl.org/data/obtaining/&quot;</span><span class="p">)</span>
 <span class="nb">len</span><span class="p">(</span><span class="n">table_list</span><span class="p">)</span>
 </pre></div>
 
@@ -2780,7 +2686,7 @@ hemisphere, or even per ocean, sea, ... Let's download the global one, and the o
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="2.-Pandas-DataStructures">2. Pandas DataStructures<a class="anchor-link" href="file://enterprisenet.org/Sentrum/citrix_home/lillle01/Downloads/climate_timeseries-Part1.html#2.-Pandas-DataStructures">¶</a></h2>
+<h2 id="2.-Pandas-DataStructures">2. Pandas DataStructures<a class="anchor-link" href="#2.-Pandas-DataStructures">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -2809,7 +2715,7 @@ hemisphere, or even per ocean, sea, ... Let's download the global one, and the o
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="DataFrame,-the-pandas-2D-structure">DataFrame, the pandas 2D structure<a class="anchor-link" href="file://enterprisenet.org/Sentrum/citrix_home/lillle01/Downloads/climate_timeseries-Part1.html#DataFrame,-the-pandas-2D-structure">¶</a></h3>
+<h3 id="DataFrame,-the-pandas-2D-structure">DataFrame, the pandas 2D structure<a class="anchor-link" href="#DataFrame,-the-pandas-2D-structure">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -2959,10 +2865,10 @@ dtype: object
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>Index(['Year', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep',
-       'Oct', 'Nov', 'Dec', 'J-D', 'D-N', 'DJF', 'MAM', 'JJA', 'SON',
-       'Year.1'],
-      dtype='object')</pre>
+<pre>Index([&apos;Year&apos;, &apos;Jan&apos;, &apos;Feb&apos;, &apos;Mar&apos;, &apos;Apr&apos;, &apos;May&apos;, &apos;Jun&apos;, &apos;Jul&apos;, &apos;Aug&apos;, &apos;Sep&apos;,
+       &apos;Oct&apos;, &apos;Nov&apos;, &apos;Dec&apos;, &apos;J-D&apos;, &apos;D-N&apos;, &apos;DJF&apos;, &apos;MAM&apos;, &apos;JJA&apos;, &apos;SON&apos;,
+       &apos;Year.1&apos;],
+      dtype=&apos;object&apos;)</pre>
 </div>
 
 </div>
@@ -2999,7 +2905,7 @@ dtype: object
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>&lt;class 'pandas.core.frame.DataFrame'&gt;
+<pre>&lt;class &apos;pandas.core.frame.DataFrame&apos;&gt;
 RangeIndex: 151 entries, 0 to 150
 Data columns (total 20 columns):
 Year      151 non-null object
@@ -3037,7 +2943,7 @@ memory usage: 23.7+ KB
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Series,-the-pandas-1D-structure">Series, the pandas 1D structure<a class="anchor-link" href="file://enterprisenet.org/Sentrum/citrix_home/lillle01/Downloads/climate_timeseries-Part1.html#Series,-the-pandas-1D-structure">¶</a></h3>
+<h3 id="Series,-the-pandas-1D-structure">Series, the pandas 1D structure<a class="anchor-link" href="#Series,-the-pandas-1D-structure">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -3088,7 +2994,7 @@ memory usage: 23.7+ KB
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Since there is only one column of values, we can make this a Series without </span>
 <span class="c1"># loosing information:</span>
-<span class="n">full_globe_temp</span> <span class="o">=</span> <span class="n">full_globe_temp</span><span class="p">[</span><span class="s2">"mean temp"</span><span class="p">]</span>
+<span class="n">full_globe_temp</span> <span class="o">=</span> <span class="n">full_globe_temp</span><span class="p">[</span><span class="s2">&quot;mean temp&quot;</span><span class="p">]</span>
 </pre></div>
 
 </div>
@@ -3127,7 +3033,7 @@ memory usage: 23.7+ KB
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>&lt;class 'pandas.core.series.Series'&gt;
+<pre>&lt;class &apos;pandas.core.series.Series&apos;&gt;
 float64
 (131,)
 1048
@@ -3169,14 +3075,14 @@ float64
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>DatetimeIndex(['1880-01-01', '1881-01-01', '1882-01-01', '1883-01-01',
-               '1884-01-01', '1885-01-01', '1886-01-01', '1887-01-01',
-               '1888-01-01', '1889-01-01',
+<pre>DatetimeIndex([&apos;1880-01-01&apos;, &apos;1881-01-01&apos;, &apos;1882-01-01&apos;, &apos;1883-01-01&apos;,
+               &apos;1884-01-01&apos;, &apos;1885-01-01&apos;, &apos;1886-01-01&apos;, &apos;1887-01-01&apos;,
+               &apos;1888-01-01&apos;, &apos;1889-01-01&apos;,
                ...
-               '2001-01-01', '2002-01-01', '2003-01-01', '2004-01-01',
-               '2005-01-01', '2006-01-01', '2007-01-01', '2008-01-01',
-               '2009-01-01', '2010-01-01'],
-              dtype='datetime64[ns]', name='year', length=131, freq=None)</pre>
+               &apos;2001-01-01&apos;, &apos;2002-01-01&apos;, &apos;2003-01-01&apos;, &apos;2004-01-01&apos;,
+               &apos;2005-01-01&apos;, &apos;2006-01-01&apos;, &apos;2007-01-01&apos;, &apos;2008-01-01&apos;,
+               &apos;2009-01-01&apos;, &apos;2010-01-01&apos;],
+              dtype=&apos;datetime64[ns]&apos;, name=&apos;year&apos;, length=131, freq=None)</pre>
 </div>
 
 </div>
@@ -3190,7 +3096,7 @@ float64
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="NumPy-arrays-as-backend-of-Pandas">NumPy arrays as backend of Pandas<a class="anchor-link" href="file://enterprisenet.org/Sentrum/citrix_home/lillle01/Downloads/climate_timeseries-Part1.html#NumPy-arrays-as-backend-of-Pandas">¶</a></h3>
+<h3 id="NumPy-arrays-as-backend-of-Pandas">NumPy arrays as backend of Pandas<a class="anchor-link" href="#NumPy-arrays-as-backend-of-Pandas">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -3310,7 +3216,7 @@ float64
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Creating-new-DataFrames-manually">Creating new DataFrames manually<a class="anchor-link" href="file://enterprisenet.org/Sentrum/citrix_home/lillle01/Downloads/climate_timeseries-Part1.html#Creating-new-DataFrames-manually">¶</a></h3>
+<h3 id="Creating-new-DataFrames-manually">Creating new DataFrames manually<a class="anchor-link" href="#Creating-new-DataFrames-manually">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -3455,9 +3361,9 @@ Name: year, dtype: bool</pre>
 <div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mean_sea_level</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s2">"northern_hem"</span><span class="p">:</span> <span class="n">northern_sea_level</span><span class="p">[</span><span class="s2">"msl_ib(mm)"</span><span class="p">],</span> 
-                               <span class="s2">"southern_hem"</span><span class="p">:</span> <span class="n">southern_sea_level</span><span class="p">[</span><span class="s2">"msl_ib(mm)"</span><span class="p">],</span> 
-                               <span class="s2">"date"</span><span class="p">:</span> <span class="n">northern_sea_level</span><span class="o">.</span><span class="n">year</span><span class="p">})</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mean_sea_level</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s2">&quot;northern_hem&quot;</span><span class="p">:</span> <span class="n">northern_sea_level</span><span class="p">[</span><span class="s2">&quot;msl_ib(mm)&quot;</span><span class="p">],</span> 
+                               <span class="s2">&quot;southern_hem&quot;</span><span class="p">:</span> <span class="n">southern_sea_level</span><span class="p">[</span><span class="s2">&quot;msl_ib(mm)&quot;</span><span class="p">],</span> 
+                               <span class="s2">&quot;date&quot;</span><span class="p">:</span> <span class="n">northern_sea_level</span><span class="o">.</span><span class="n">year</span><span class="p">})</span>
 <span class="n">mean_sea_level</span>
 </pre></div>
 
@@ -3622,8 +3528,8 @@ Name: year, dtype: bool</pre>
 <div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mean_sea_level</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s2">"northern_hem"</span><span class="p">:</span> <span class="n">northern_sea_level</span><span class="p">[</span><span class="s2">"msl_ib(mm)"</span><span class="p">],</span> 
-                               <span class="s2">"southern_hem"</span><span class="p">:</span> <span class="n">southern_sea_level</span><span class="p">[</span><span class="s2">"msl_ib(mm)"</span><span class="p">]},</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mean_sea_level</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s2">&quot;northern_hem&quot;</span><span class="p">:</span> <span class="n">northern_sea_level</span><span class="p">[</span><span class="s2">&quot;msl_ib(mm)&quot;</span><span class="p">],</span> 
+                               <span class="s2">&quot;southern_hem&quot;</span><span class="p">:</span> <span class="n">southern_sea_level</span><span class="p">[</span><span class="s2">&quot;msl_ib(mm)&quot;</span><span class="p">]},</span>
                                <span class="n">index</span> <span class="o">=</span> <span class="n">northern_sea_level</span><span class="o">.</span><span class="n">year</span><span class="p">)</span>
 <span class="n">mean_sea_level</span>
 </pre></div>
@@ -3767,8 +3673,8 @@ Name: year, dtype: bool</pre>
 <div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mean_sea_level</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s2">"northern_hem"</span><span class="p">:</span> <span class="n">northern_sea_level</span><span class="p">[</span><span class="s2">"msl_ib(mm)"</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">,</span> 
-                               <span class="s2">"southern_hem"</span><span class="p">:</span> <span class="n">southern_sea_level</span><span class="p">[</span><span class="s2">"msl_ib(mm)"</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">},</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mean_sea_level</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s2">&quot;northern_hem&quot;</span><span class="p">:</span> <span class="n">northern_sea_level</span><span class="p">[</span><span class="s2">&quot;msl_ib(mm)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">,</span> 
+                               <span class="s2">&quot;southern_hem&quot;</span><span class="p">:</span> <span class="n">southern_sea_level</span><span class="p">[</span><span class="s2">&quot;msl_ib(mm)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">},</span>
                                <span class="n">index</span> <span class="o">=</span> <span class="n">northern_sea_level</span><span class="o">.</span><span class="n">year</span><span class="p">)</span>
 <span class="n">mean_sea_level</span>
 </pre></div>
@@ -3901,7 +3807,7 @@ Name: year, dtype: bool</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="3.-Cleaning-and-formatting-data">3. Cleaning and formatting data<a class="anchor-link" href="file://enterprisenet.org/Sentrum/citrix_home/lillle01/Downloads/climate_timeseries-Part1.html#3.-Cleaning-and-formatting-data">¶</a></h2>
+<h2 id="3.-Cleaning-and-formatting-data">3. Cleaning and formatting data<a class="anchor-link" href="#3.-Cleaning-and-formatting-data">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -3921,7 +3827,7 @@ Name: year, dtype: bool</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Renaming-columns">Renaming columns<a class="anchor-link" href="file://enterprisenet.org/Sentrum/citrix_home/lillle01/Downloads/climate_timeseries-Part1.html#Renaming-columns">¶</a></h3>
+<h3 id="Renaming-columns">Renaming columns<a class="anchor-link" href="#Renaming-columns">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -4182,7 +4088,7 @@ Name: year, dtype: bool</pre>
 <div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># The columns of the local_sea_level_stations aren't clean: they contain spaces and dots.</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># The columns of the local_sea_level_stations aren&#39;t clean: they contain spaces and dots.</span>
 <span class="n">local_sea_level_stations</span><span class="o">.</span><span class="n">columns</span>
 </pre></div>
 
@@ -4198,9 +4104,9 @@ Name: year, dtype: bool</pre>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>Index(['Station Name', 'ID', 'Lat.', 'Lon.', 'GLOSS ID&nbsp;&nbsp;', 'Country&nbsp;&nbsp;', 'Date',
-       'Coastline&nbsp;&nbsp;', 'Station&nbsp;&nbsp;'],
-      dtype='object')</pre>
+<pre>Index([&apos;Station Name&apos;, &apos;ID&apos;, &apos;Lat.&apos;, &apos;Lon.&apos;, &apos;GLOSS ID  &apos;, &apos;Country  &apos;, &apos;Date&apos;,
+       &apos;Coastline  &apos;, &apos;Station  &apos;],
+      dtype=&apos;object&apos;)</pre>
 </div>
 
 </div>
@@ -4214,8 +4120,8 @@ Name: year, dtype: bool</pre>
 <div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Let's clean them up a bit:</span>
-<span class="n">local_sea_level_stations</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="n">name</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">"."</span><span class="p">,</span> <span class="s2">""</span><span class="p">)</span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Let&#39;s clean them up a bit:</span>
+<span class="n">local_sea_level_stations</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="n">name</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;.&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span> 
                                     <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">local_sea_level_stations</span><span class="o">.</span><span class="n">columns</span><span class="p">]</span>
 <span class="n">local_sea_level_stations</span><span class="o">.</span><span class="n">columns</span>
 </pre></div>
@@ -4232,9 +4138,9 @@ Name: year, dtype: bool</pre>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>Index(['Station Name', 'ID', 'Lat', 'Lon', 'GLOSS ID', 'Country', 'Date',
-       'Coastline', 'Station'],
-      dtype='object')</pre>
+<pre>Index([&apos;Station Name&apos;, &apos;ID&apos;, &apos;Lat&apos;, &apos;Lon&apos;, &apos;GLOSS ID&apos;, &apos;Country&apos;, &apos;Date&apos;,
+       &apos;Coastline&apos;, &apos;Station&apos;],
+      dtype=&apos;object&apos;)</pre>
 </div>
 
 </div>
@@ -4258,7 +4164,7 @@ Name: year, dtype: bool</pre>
 <div class="prompt input_prompt">In&nbsp;[62]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mean_sea_level</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s2">"date"</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mean_sea_level</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;date&quot;</span>
 <span class="n">mean_sea_level</span>
 </pre></div>
 
@@ -4390,7 +4296,7 @@ Name: year, dtype: bool</pre>
 <div class="prompt input_prompt">In&nbsp;[66]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mean_sea_level</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s1">'northern_hem'</span><span class="p">:</span> <span class="s1">'NrH'</span><span class="p">,</span> <span class="s1">'southern_hem'</span><span class="p">:</span> <span class="s1">'SoH'</span><span class="p">},</span> <span class="n">inplace</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mean_sea_level</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;northern_hem&#39;</span><span class="p">:</span> <span class="s1">&#39;NrH&#39;</span><span class="p">,</span> <span class="s1">&#39;southern_hem&#39;</span><span class="p">:</span> <span class="s1">&#39;SoH&#39;</span><span class="p">},</span> <span class="n">inplace</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
 <span class="n">mean_sea_level</span>
 </pre></div>
 
@@ -4535,8 +4441,8 @@ Name: year, dtype: bool</pre>
 <div class="prompt input_prompt">In&nbsp;[70]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mean_sea_level</span><span class="p">[</span><span class="s1">'total'</span><span class="p">]</span> <span class="o">=</span> <span class="n">mean_sea_level</span><span class="p">[</span><span class="s1">'NrH'</span><span class="p">]</span> <span class="o">*</span> <span class="mi">2</span>
-<span class="n">mean_sea_level</span><span class="p">[</span><span class="s1">'total1'</span><span class="p">]</span> <span class="o">=</span> <span class="n">mean_sea_level</span><span class="p">[</span><span class="s1">'SoH'</span><span class="p">]</span> <span class="o">/</span> <span class="n">mean_sea_level</span><span class="p">[</span><span class="s1">'total'</span><span class="p">]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mean_sea_level</span><span class="p">[</span><span class="s1">&#39;total&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">mean_sea_level</span><span class="p">[</span><span class="s1">&#39;NrH&#39;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">2</span>
+<span class="n">mean_sea_level</span><span class="p">[</span><span class="s1">&#39;total1&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">mean_sea_level</span><span class="p">[</span><span class="s1">&#39;SoH&#39;</span><span class="p">]</span> <span class="o">/</span> <span class="n">mean_sea_level</span><span class="p">[</span><span class="s1">&#39;total&#39;</span><span class="p">]</span>
 <span class="n">mean_sea_level</span>
 </pre></div>
 
@@ -4706,7 +4612,7 @@ Name: year, dtype: bool</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Setting-missing-values">Setting missing values<a class="anchor-link" href="file://enterprisenet.org/Sentrum/citrix_home/lillle01/Downloads/climate_timeseries-Part1.html#Setting-missing-values">¶</a></h3>
+<h3 id="Setting-missing-values">Setting missing values<a class="anchor-link" href="#Setting-missing-values">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -4901,7 +4807,7 @@ Name: year, dtype: bool</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Choosing-what-is-the-index">Choosing what is the index<a class="anchor-link" href="file://enterprisenet.org/Sentrum/citrix_home/lillle01/Downloads/climate_timeseries-Part1.html#Choosing-what-is-the-index">¶</a></h3>
+<h3 id="Choosing-what-is-the-index">Choosing what is the index<a class="anchor-link" href="#Choosing-what-is-the-index">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -4910,8 +4816,8 @@ Name: year, dtype: bool</pre>
 <div class="prompt input_prompt">In&nbsp;[73]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># We didn't set a column number of the index of giss_temp, we can do that afterwards:</span>
-<span class="n">giss_temp</span> <span class="o">=</span> <span class="n">giss_temp</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s2">"Year"</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># We didn&#39;t set a column number of the index of giss_temp, we can do that afterwards:</span>
+<span class="n">giss_temp</span> <span class="o">=</span> <span class="n">giss_temp</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s2">&quot;Year&quot;</span><span class="p">)</span>
 <span class="n">giss_temp</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
@@ -5101,7 +5007,7 @@ Name: year, dtype: bool</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Dropping-rows-and-columns">Dropping rows and columns<a class="anchor-link" href="file://enterprisenet.org/Sentrum/citrix_home/lillle01/Downloads/climate_timeseries-Part1.html#Dropping-rows-and-columns">¶</a></h3>
+<h3 id="Dropping-rows-and-columns">Dropping rows and columns<a class="anchor-link" href="#Dropping-rows-and-columns">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -5126,9 +5032,9 @@ Name: year, dtype: bool</pre>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>Index(['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct',
-       'Nov', 'Dec', 'J-D', 'D-N', 'DJF', 'MAM', 'JJA', 'SON', 'Year.1'],
-      dtype='object')</pre>
+<pre>Index([&apos;Jan&apos;, &apos;Feb&apos;, &apos;Mar&apos;, &apos;Apr&apos;, &apos;May&apos;, &apos;Jun&apos;, &apos;Jul&apos;, &apos;Aug&apos;, &apos;Sep&apos;, &apos;Oct&apos;,
+       &apos;Nov&apos;, &apos;Dec&apos;, &apos;J-D&apos;, &apos;D-N&apos;, &apos;DJF&apos;, &apos;MAM&apos;, &apos;JJA&apos;, &apos;SON&apos;, &apos;Year.1&apos;],
+      dtype=&apos;object&apos;)</pre>
 </div>
 
 </div>
@@ -5142,8 +5048,8 @@ Name: year, dtype: bool</pre>
 <div class="prompt input_prompt">In&nbsp;[75]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Let's drop it:</span>
-<span class="n">giss_temp</span> <span class="o">=</span> <span class="n">giss_temp</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s2">"Year.1"</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Let&#39;s drop it:</span>
+<span class="n">giss_temp</span> <span class="o">=</span> <span class="n">giss_temp</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s2">&quot;Year.1&quot;</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 <span class="n">giss_temp</span>
 </pre></div>
 
@@ -5580,8 +5486,8 @@ Name: year, dtype: bool</pre>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># We can also just select the columns we want to keep:</span>
-<span class="n">giss_temp</span> <span class="o">=</span> <span class="n">giss_temp</span><span class="p">[[</span><span class="s1">u'Jan'</span><span class="p">,</span> <span class="s1">u'Feb'</span><span class="p">,</span> <span class="s1">u'Mar'</span><span class="p">,</span> <span class="s1">u'Apr'</span><span class="p">,</span> <span class="s1">u'May'</span><span class="p">,</span> <span class="s1">u'Jun'</span><span class="p">,</span> <span class="s1">u'Jul'</span><span class="p">,</span> 
-                       <span class="s1">u'Aug'</span><span class="p">,</span> <span class="s1">u'Sep'</span><span class="p">,</span> <span class="s1">u'Oct'</span><span class="p">,</span> <span class="s1">u'Nov'</span><span class="p">,</span> <span class="s1">u'Dec'</span><span class="p">]]</span>
+<span class="n">giss_temp</span> <span class="o">=</span> <span class="n">giss_temp</span><span class="p">[[</span><span class="s1">u&#39;Jan&#39;</span><span class="p">,</span> <span class="s1">u&#39;Feb&#39;</span><span class="p">,</span> <span class="s1">u&#39;Mar&#39;</span><span class="p">,</span> <span class="s1">u&#39;Apr&#39;</span><span class="p">,</span> <span class="s1">u&#39;May&#39;</span><span class="p">,</span> <span class="s1">u&#39;Jun&#39;</span><span class="p">,</span> <span class="s1">u&#39;Jul&#39;</span><span class="p">,</span> 
+                       <span class="s1">u&#39;Aug&#39;</span><span class="p">,</span> <span class="s1">u&#39;Sep&#39;</span><span class="p">,</span> <span class="s1">u&#39;Oct&#39;</span><span class="p">,</span> <span class="s1">u&#39;Nov&#39;</span><span class="p">,</span> <span class="s1">u&#39;Dec&#39;</span><span class="p">]]</span>
 <span class="n">giss_temp</span>
 </pre></div>
 
@@ -5903,8 +5809,8 @@ Name: year, dtype: bool</pre>
 <div class="prompt input_prompt">In&nbsp;[77]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Let's remove all these extra column names (Year  Jan ...). They all correspond to the index "Year"</span>
-<span class="n">giss_temp</span> <span class="o">=</span> <span class="n">giss_temp</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s2">"Year"</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Let&#39;s remove all these extra column names (Year  Jan ...). They all correspond to the index &quot;Year&quot;</span>
+<span class="n">giss_temp</span> <span class="o">=</span> <span class="n">giss_temp</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s2">&quot;Year&quot;</span><span class="p">)</span>
 <span class="n">giss_temp</span>
 </pre></div>
 
@@ -6236,8 +6142,8 @@ Name: year, dtype: bool</pre>
 <div class="prompt input_prompt">In&nbsp;[78]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#giss_temp[giss_temp == "****"] = np.nan used to replace missing or 999 values</span>
-<span class="n">giss_temp</span> <span class="o">=</span> <span class="n">giss_temp</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">giss_temp</span> <span class="o">!=</span> <span class="s2">"****"</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#giss_temp[giss_temp == &quot;****&quot;] = np.nan used to replace missing or 999 values</span>
+<span class="n">giss_temp</span> <span class="o">=</span> <span class="n">giss_temp</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">giss_temp</span> <span class="o">!=</span> <span class="s2">&quot;****&quot;</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">)</span>
 <span class="n">giss_temp</span>
 </pre></div>
 
@@ -6699,7 +6605,7 @@ Name: year, dtype: bool</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Adding-columns">Adding columns<a class="anchor-link" href="file://enterprisenet.org/Sentrum/citrix_home/lillle01/Downloads/climate_timeseries-Part1.html#Adding-columns">¶</a></h3>
+<h3 id="Adding-columns">Adding columns<a class="anchor-link" href="#Adding-columns">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -6718,7 +6624,7 @@ Name: year, dtype: bool</pre>
 <div class="prompt input_prompt">In&nbsp;[80]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mean_sea_level</span><span class="p">[</span><span class="s2">"mean_global"</span><span class="p">]</span> <span class="o">=</span> <span class="n">global_sea_level</span><span class="p">[</span><span class="s2">"msl_ib_ns(mm)"</span><span class="p">]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mean_sea_level</span><span class="p">[</span><span class="s2">&quot;mean_global&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">global_sea_level</span><span class="p">[</span><span class="s2">&quot;msl_ib_ns(mm)&quot;</span><span class="p">]</span>
 <span class="n">mean_sea_level</span>
 </pre></div>
 
@@ -6917,8 +6823,8 @@ Name: year, dtype: bool</pre>
 <div class="prompt input_prompt">In&nbsp;[81]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">global_sea_level</span> <span class="o">=</span> <span class="n">global_sea_level</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s2">"year"</span><span class="p">)</span>
-<span class="n">global_sea_level</span><span class="p">[</span><span class="s2">"msl_ib_ns(mm)"</span><span class="p">]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">global_sea_level</span> <span class="o">=</span> <span class="n">global_sea_level</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s2">&quot;year&quot;</span><span class="p">)</span>
+<span class="n">global_sea_level</span><span class="p">[</span><span class="s2">&quot;msl_ib_ns(mm)&quot;</span><span class="p">]</span>
 </pre></div>
 
 </div>
@@ -6965,7 +6871,7 @@ Name: msl_ib_ns(mm), dtype: float64</pre>
 <div class="prompt input_prompt">In&nbsp;[82]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mean_sea_level</span><span class="p">[</span><span class="s2">"mean_global"</span><span class="p">]</span> <span class="o">=</span> <span class="n">global_sea_level</span><span class="p">[</span><span class="s2">"msl_ib_ns(mm)"</span><span class="p">]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mean_sea_level</span><span class="p">[</span><span class="s2">&quot;mean_global&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">global_sea_level</span><span class="p">[</span><span class="s2">&quot;msl_ib_ns(mm)&quot;</span><span class="p">]</span>
 <span class="n">mean_sea_level</span>
 </pre></div>
 
@@ -7224,7 +7130,7 @@ dtype: float64</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Changing-dtype-of-series">Changing dtype of series<a class="anchor-link" href="file://enterprisenet.org/Sentrum/citrix_home/lillle01/Downloads/climate_timeseries-Part1.html#Changing-dtype-of-series">¶</a></h3>
+<h3 id="Changing-dtype-of-series">Changing dtype of series<a class="anchor-link" href="#Changing-dtype-of-series">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -7294,7 +7200,7 @@ dtype: object</pre>
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">giss_temp</span><span class="p">[</span><span class="s2">"Jan"</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s2">"float32"</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">giss_temp</span><span class="p">[</span><span class="s2">&quot;Jan&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s2">&quot;float32&quot;</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -7367,7 +7273,7 @@ dtype: object</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Removing-missing-values">Removing missing values<a class="anchor-link" href="file://enterprisenet.org/Sentrum/citrix_home/lillle01/Downloads/climate_timeseries-Part1.html#Removing-missing-values">¶</a></h3>
+<h3 id="Removing-missing-values">Removing missing values<a class="anchor-link" href="#Removing-missing-values">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -7412,8 +7318,8 @@ dtype: object</pre>
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># This will remove any year that has a missing value. Use how='all' to keep partial years</span>
-<span class="n">giss_temp</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">how</span><span class="o">=</span><span class="s2">"any"</span><span class="p">)</span><span class="o">.</span><span class="n">tail</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># This will remove any year that has a missing value. Use how=&#39;all&#39; to keep partial years</span>
+<span class="n">giss_temp</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">how</span><span class="o">=</span><span class="s2">&quot;any&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">tail</span><span class="p">()</span>
 </pre></div>
 
 </div>
@@ -7440,7 +7346,7 @@ dtype: object</pre>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># This fills them with the previous year. See also temp3.interpolate</span>
-<span class="n">giss_temp</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="n">method</span><span class="o">=</span><span class="s2">"ffill"</span><span class="p">)</span><span class="o">.</span><span class="n">tail</span><span class="p">()</span>
+<span class="n">giss_temp</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="n">method</span><span class="o">=</span><span class="s2">&quot;ffill&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">tail</span><span class="p">()</span>
 </pre></div>
 
 </div>
@@ -7496,7 +7402,7 @@ dtype: object</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="4.-Basic-visualization">4. Basic visualization<a class="anchor-link" href="file://enterprisenet.org/Sentrum/citrix_home/lillle01/Downloads/climate_timeseries-Part1.html#4.-Basic-visualization">¶</a></h2>
+<h2 id="4.-Basic-visualization">4. Basic visualization<a class="anchor-link" href="#4.-Basic-visualization">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -7515,7 +7421,7 @@ dtype: object</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Line-plots">Line plots<a class="anchor-link" href="file://enterprisenet.org/Sentrum/citrix_home/lillle01/Downloads/climate_timeseries-Part1.html#Line-plots">¶</a></h3>
+<h3 id="Line-plots">Line plots<a class="anchor-link" href="#Line-plots">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -7563,7 +7469,7 @@ dtype: object</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Showing-distributions-information">Showing distributions information<a class="anchor-link" href="file://enterprisenet.org/Sentrum/citrix_home/lillle01/Downloads/climate_timeseries-Part1.html#Showing-distributions-information">¶</a></h3>
+<h3 id="Showing-distributions-information">Showing distributions information<a class="anchor-link" href="#Showing-distributions-information">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -7573,7 +7479,7 @@ dtype: object</pre>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Distributions of mean sean level globally and per hemisphere?</span>
-<span class="n">mean_sea_level</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s2">"kde"</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">8</span><span class="p">))</span>
+<span class="n">mean_sea_level</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s2">&quot;kde&quot;</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">8</span><span class="p">))</span>
 </pre></div>
 
 </div>
@@ -7610,7 +7516,7 @@ dtype: object</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Correlations">Correlations<a class="anchor-link" href="file://enterprisenet.org/Sentrum/citrix_home/lillle01/Downloads/climate_timeseries-Part1.html#Correlations">¶</a></h3>
+<h3 id="Correlations">Correlations<a class="anchor-link" href="#Correlations">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -7654,7 +7560,7 @@ dtype: object</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="5.-Storing-our-work">5. Storing our work<a class="anchor-link" href="file://enterprisenet.org/Sentrum/citrix_home/lillle01/Downloads/climate_timeseries-Part1.html#5.-Storing-our-work">¶</a></h2>
+<h2 id="5.-Storing-our-work">5. Storing our work<a class="anchor-link" href="#5.-Storing-our-work">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -7693,7 +7599,7 @@ dtype: object</pre>
 <div class="prompt input_prompt">In&nbsp;[85]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">writer</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">ExcelWriter</span><span class="p">(</span><span class="s2">"test.xls"</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">writer</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">ExcelWriter</span><span class="p">(</span><span class="s2">&quot;test.xls&quot;</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -7706,8 +7612,8 @@ dtype: object</pre>
 <div class="prompt input_prompt">In&nbsp;[86]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">giss_temp</span><span class="o">.</span><span class="n">to_excel</span><span class="p">(</span><span class="n">writer</span><span class="p">,</span> <span class="n">sheet_name</span><span class="o">=</span><span class="s2">"GISS temp data"</span><span class="p">)</span>
-<span class="n">full_globe_temp</span><span class="o">.</span><span class="n">to_excel</span><span class="p">(</span><span class="n">writer</span><span class="p">,</span> <span class="n">sheet_name</span><span class="o">=</span><span class="s2">"NASA temp data"</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">giss_temp</span><span class="o">.</span><span class="n">to_excel</span><span class="p">(</span><span class="n">writer</span><span class="p">,</span> <span class="n">sheet_name</span><span class="o">=</span><span class="s2">&quot;GISS temp data&quot;</span><span class="p">)</span>
+<span class="n">full_globe_temp</span><span class="o">.</span><span class="n">to_excel</span><span class="p">(</span><span class="n">writer</span><span class="p">,</span> <span class="n">sheet_name</span><span class="o">=</span><span class="s2">&quot;NASA temp data&quot;</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -7733,9 +7639,9 @@ dtype: object</pre>
 <div class="prompt input_prompt">In&nbsp;[88]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">with</span> <span class="n">pd</span><span class="o">.</span><span class="n">ExcelWriter</span><span class="p">(</span><span class="s2">"test.xls"</span><span class="p">)</span> <span class="k">as</span> <span class="n">writer</span><span class="p">:</span>
-    <span class="n">giss_temp</span><span class="o">.</span><span class="n">to_excel</span><span class="p">(</span><span class="n">writer</span><span class="p">,</span> <span class="n">sheet_name</span><span class="o">=</span><span class="s2">"GISS temp data"</span><span class="p">)</span>
-    <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s2">"Full Globe Temp"</span><span class="p">:</span> <span class="n">full_globe_temp</span><span class="p">})</span><span class="o">.</span><span class="n">to_excel</span><span class="p">(</span><span class="n">writer</span><span class="p">,</span> <span class="n">sheet_name</span><span class="o">=</span><span class="s2">"FullGlobe temp data"</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">with</span> <span class="n">pd</span><span class="o">.</span><span class="n">ExcelWriter</span><span class="p">(</span><span class="s2">&quot;test.xls&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">writer</span><span class="p">:</span>
+    <span class="n">giss_temp</span><span class="o">.</span><span class="n">to_excel</span><span class="p">(</span><span class="n">writer</span><span class="p">,</span> <span class="n">sheet_name</span><span class="o">=</span><span class="s2">&quot;GISS temp data&quot;</span><span class="p">)</span>
+    <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s2">&quot;Full Globe Temp&quot;</span><span class="p">:</span> <span class="n">full_globe_temp</span><span class="p">})</span><span class="o">.</span><span class="n">to_excel</span><span class="p">(</span><span class="n">writer</span><span class="p">,</span> <span class="n">sheet_name</span><span class="o">=</span><span class="s2">&quot;FullGlobe temp data&quot;</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -7748,12 +7654,13 @@ dtype: object</pre>
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_text output_error">
-<pre><span class="ansired">---------------------------------------------------------------------------</span>
+<pre>
+<span class="ansired">---------------------------------------------------------------------------</span>
 <span class="ansired">ValueError</span>                                Traceback (most recent call last)
 <span class="ansigreen">&lt;ipython-input-88-4fdee55c1b96&gt;</span> in <span class="ansicyan">&lt;module&gt;</span><span class="ansiblue">()</span>
-<span class="ansigreen">      1</span> <span class="ansigreen">with</span> pd<span class="ansiyellow">.</span>ExcelWriter<span class="ansiyellow">(</span><span class="ansiblue">"test.xls"</span><span class="ansiyellow">)</span> <span class="ansigreen">as</span> writer<span class="ansiyellow">:</span><span class="ansiyellow"></span>
-<span class="ansigreen">      2</span>     giss_temp<span class="ansiyellow">.</span>to_excel<span class="ansiyellow">(</span>writer<span class="ansiyellow">,</span> sheet_name<span class="ansiyellow">=</span><span class="ansiblue">"GISS temp data"</span><span class="ansiyellow">)</span><span class="ansiyellow"></span>
-<span class="ansigreen">----&gt; 3</span><span class="ansiyellow">     </span>pd<span class="ansiyellow">.</span>DataFrame<span class="ansiyellow">(</span><span class="ansiyellow">{</span><span class="ansiblue">"Full Globe Temp"</span><span class="ansiyellow">:</span> full_globe_temp<span class="ansiyellow">}</span><span class="ansiyellow">)</span><span class="ansiyellow">.</span>to_excel<span class="ansiyellow">(</span>writer<span class="ansiyellow">,</span> sheet_name<span class="ansiyellow">=</span><span class="ansiblue">"FullGlobe temp data"</span><span class="ansiyellow">)</span><span class="ansiyellow"></span>
+<span class="ansigreen">      1</span> <span class="ansigreen">with</span> pd<span class="ansiyellow">.</span>ExcelWriter<span class="ansiyellow">(</span><span class="ansiblue">&quot;test.xls&quot;</span><span class="ansiyellow">)</span> <span class="ansigreen">as</span> writer<span class="ansiyellow">:</span><span class="ansiyellow"></span>
+<span class="ansigreen">      2</span>     giss_temp<span class="ansiyellow">.</span>to_excel<span class="ansiyellow">(</span>writer<span class="ansiyellow">,</span> sheet_name<span class="ansiyellow">=</span><span class="ansiblue">&quot;GISS temp data&quot;</span><span class="ansiyellow">)</span><span class="ansiyellow"></span>
+<span class="ansigreen">----&gt; 3</span><span class="ansiyellow">     </span>pd<span class="ansiyellow">.</span>DataFrame<span class="ansiyellow">(</span><span class="ansiyellow">{</span><span class="ansiblue">&quot;Full Globe Temp&quot;</span><span class="ansiyellow">:</span> full_globe_temp<span class="ansiyellow">}</span><span class="ansiyellow">)</span><span class="ansiyellow">.</span>to_excel<span class="ansiyellow">(</span>writer<span class="ansiyellow">,</span> sheet_name<span class="ansiyellow">=</span><span class="ansiblue">&quot;FullGlobe temp data&quot;</span><span class="ansiyellow">)</span><span class="ansiyellow"></span>
 
 <span class="ansigreen">C:\Anaconda3\lib\site-packages\pandas\core\frame.py</span> in <span class="ansicyan">__init__</span><span class="ansiblue">(self, data, index, columns, dtype, copy)</span>
 <span class="ansigreen">    221</span>                                  dtype=dtype, copy=copy)
@@ -7779,8 +7686,8 @@ dtype: object</pre>
 <span class="ansigreen">C:\Anaconda3\lib\site-packages\pandas\core\frame.py</span> in <span class="ansicyan">extract_index</span><span class="ansiblue">(data)</span>
 <span class="ansigreen">   5277</span> <span class="ansiyellow"></span>
 <span class="ansigreen">   5278</span>         <span class="ansigreen">if</span> <span class="ansigreen">not</span> indexes <span class="ansigreen">and</span> <span class="ansigreen">not</span> raw_lengths<span class="ansiyellow">:</span><span class="ansiyellow"></span>
-<span class="ansigreen">-&gt; 5279</span><span class="ansiyellow">             raise ValueError('If using all scalar values, you must pass'
-</span><span class="ansigreen">   5280</span>                              ' an index')
+<span class="ansigreen">-&gt; 5279</span><span class="ansiyellow">             raise ValueError(&apos;If using all scalar values, you must pass&apos;
+</span><span class="ansigreen">   5280</span>                              &apos; an index&apos;)
 <span class="ansigreen">   5281</span> <span class="ansiyellow"></span>
 
 <span class="ansired">ValueError</span>: If using all scalar values, you must pass an index</pre>
@@ -7819,11 +7726,11 @@ dtype: object</pre>
 <div class="prompt input_prompt">In&nbsp;[89]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">with</span> <span class="n">pd</span><span class="o">.</span><span class="n">HDFStore</span><span class="p">(</span><span class="s2">"all_data.h5"</span><span class="p">)</span> <span class="k">as</span> <span class="n">writer</span><span class="p">:</span>
-    <span class="n">giss_temp</span><span class="o">.</span><span class="n">to_hdf</span><span class="p">(</span><span class="n">writer</span><span class="p">,</span> <span class="s2">"/temperatures/giss"</span><span class="p">)</span>
-    <span class="n">full_globe_temp</span><span class="o">.</span><span class="n">to_hdf</span><span class="p">(</span><span class="n">writer</span><span class="p">,</span> <span class="s2">"/temperatures/full_globe"</span><span class="p">)</span>
-    <span class="n">mean_sea_level</span><span class="o">.</span><span class="n">to_hdf</span><span class="p">(</span><span class="n">writer</span><span class="p">,</span> <span class="s2">"/sea_level/mean_sea_level"</span><span class="p">)</span>
-    <span class="n">local_sea_level_stations</span><span class="o">.</span><span class="n">to_hdf</span><span class="p">(</span><span class="n">writer</span><span class="p">,</span> <span class="s2">"/sea_level/stations"</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">with</span> <span class="n">pd</span><span class="o">.</span><span class="n">HDFStore</span><span class="p">(</span><span class="s2">&quot;all_data.h5&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">writer</span><span class="p">:</span>
+    <span class="n">giss_temp</span><span class="o">.</span><span class="n">to_hdf</span><span class="p">(</span><span class="n">writer</span><span class="p">,</span> <span class="s2">&quot;/temperatures/giss&quot;</span><span class="p">)</span>
+    <span class="n">full_globe_temp</span><span class="o">.</span><span class="n">to_hdf</span><span class="p">(</span><span class="n">writer</span><span class="p">,</span> <span class="s2">&quot;/temperatures/full_globe&quot;</span><span class="p">)</span>
+    <span class="n">mean_sea_level</span><span class="o">.</span><span class="n">to_hdf</span><span class="p">(</span><span class="n">writer</span><span class="p">,</span> <span class="s2">&quot;/sea_level/mean_sea_level&quot;</span><span class="p">)</span>
+    <span class="n">local_sea_level_stations</span><span class="o">.</span><span class="n">to_hdf</span><span class="p">(</span><span class="n">writer</span><span class="p">,</span> <span class="s2">&quot;/sea_level/stations&quot;</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -7838,7 +7745,7 @@ dtype: object</pre>
 <div class="output_subarea output_stream output_stderr output_text">
 <pre>C:\Anaconda3\lib\site-packages\pandas\core\generic.py:1096: PerformanceWarning: 
 your performance may suffer as PyTables will pickle object types that it cannot
-map directly to c-types [inferred_type-&gt;mixed,key-&gt;block0_values] [items-&gt;['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']]
+map directly to c-types [inferred_type-&gt;mixed,key-&gt;block0_values] [items-&gt;[&apos;Jan&apos;, &apos;Feb&apos;, &apos;Mar&apos;, &apos;Apr&apos;, &apos;May&apos;, &apos;Jun&apos;, &apos;Jul&apos;, &apos;Aug&apos;, &apos;Sep&apos;, &apos;Oct&apos;, &apos;Nov&apos;, &apos;Dec&apos;]]
 
   return pytables.to_hdf(path_or_buf, key, self, **kwargs)
 </pre>
@@ -7893,6 +7800,5 @@ map directly to c-types [inferred_type-&gt;mixed,key-&gt;block0_values] [items-&
 </div>
     </div>
   </div>
-
-
-</body></html>
+</body>
+</html>
